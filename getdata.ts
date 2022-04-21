@@ -9,3 +9,4 @@ fs.readFile('data.txt', function(err, data) {
         console.log(i);
     }
 });
+ 
