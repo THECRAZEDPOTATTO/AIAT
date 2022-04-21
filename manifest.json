@@ -1,0 +1,13 @@
+{
+    "name": "ATAI",
+    "description": "Tracks how focused you are during certain times of the day.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage","camera"],
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
